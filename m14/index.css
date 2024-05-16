@@ -1,0 +1,13 @@
+.body{
+	margin:0px;
+	padding:0px;
+	line-height: 1.4;
+}
+.main_container{
+	min-height: 100px;
+	background-color: blue;
+}
+.inner_container{
+	min-height: 100px;
+	background-color: #000;
+}

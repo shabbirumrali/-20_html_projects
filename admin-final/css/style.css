@@ -1,0 +1,41 @@
+body{
+	margin:0px;
+	padding:0px;
+	line-height: 1.4px;
+}
+.just_eat{
+	color:  #3d548a;
+	font-size: 30px;
+	margin-left: 50px;
+}
+.main_container{
+	background-color: #3d548a;
+}
+.read{
+	margin-top: 30px;
+	font-size: 40px;
+}
+.colums{
+	margin: 0px 0px 10px;
+}
+.over{
+	margin-left:30%;
+	padding-top: 40px;
+	cursor: pointer;
+}
+.over_a{
+	margin-left:35%;
+	cursor: pointer;
+	padding-top: 40px;
+}
+.over_b{
+	margin-left:30%;
+	cursor: pointer;
+	padding-top: 20px;
+}
+.colums p{
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+	color: #000;
+}

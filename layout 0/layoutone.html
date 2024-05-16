@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>intenal+css</title>
+	<link rel="stylesheet" type="text/css" href="layoutone.css">
+	<link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<div class="header_a">
+				<img src="image/03.png" class="img-responsive">
+			</div>
+			<div class="header_b">	
+				<ul>
+					<li><a href="#"><strong>Home</strong></a></li>
+					<li><a href="#">Contract</a></li>
+					<li><a href="#">Our work</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+			</div>
+			<div class="header_c">
+				<div class="search">
+					<input type="" name="search">Search</input>
+				</div>
+			</div>
+		</div>	
+		 <div id="wrapper" style="margin-top: -90px;">
+			<div class="slider-wrapper theme-default">
+				<div id="slider" class="nivoSlider">
+					<img src="image/01.jpg" data-thumb="image/01.jpg" alt="" />
+					<img src="image/03.jpg" data-thumb="image/03.jpg" alt="" title="This is an example of a caption" /></a>
+					<img src="image/04.jpg" data-thumb="image/04.jpg" alt="" data-transition="slideInLeft" />
+					<img src="image/05.jpg" data-thumb="image/05.jpg" alt="" title="#htmlcaption" />
+				</div>
+				<div id="htmlcaption" class="nivo-html-caption">
+					<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+				</div>
+			</div>
+		 </div>
+		 <div class="content">
+			<div class="content_a">
+				<div class="content_aa">
+					<strong>WHAT WE DO</strong>
+				</div>
+				<div class="line_a">
+				</div>
+			</div>
+			<div class="content_b">
+				<div class="content_ba">
+					<div class="content_baa">
+						<img src="image/17.jpg">
+					</div>
+				</div>
+				<div class="content_bb">
+				</div>
+				<div class="content_bc">
+				</div>
+			</div>
+		 </div>
+		 
+
+    </div>
+	
+</body>
+</html>

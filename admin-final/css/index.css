@@ -1,0 +1,22 @@
+body{
+	margin:0px;
+	padding: 0px;
+	line-height: 1.4;
+}
+.wrap{
+	min-height: 80px
+	background-color:#f4f4f4;
+}
+.wrap_a{
+	background-color: #ddd;
+	min-height: 50px
+}
+/*.nave{
+	float: right;
+	vertical-align: middle; 
+}*/
+.columns{
+	background-color:black;
+	min-height: 100px;
+	margin: 0px 0px 10px; 
+}

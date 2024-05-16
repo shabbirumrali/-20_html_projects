@@ -1,0 +1,13 @@
+.body{
+	margin:0px;
+	padding:0px;
+	line-height: 0px;
+}
+.main_container{
+	min-height: 82px;
+	background-color: #000;
+}
+.inner_container{
+	min-height: 90px;
+	background-color: red;
+}
